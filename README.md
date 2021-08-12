@@ -12,6 +12,12 @@ style_transfer - Image generation with style transfer model <br />
 For execute style_transfer  Required to change 'style_path' variable to contain the path to 'monet_jpg' directory and 'content_path' variable to contain the path to 'pohoto_jpg' directory. Also need to change the imsave path.
 
 The other selection methods assume the code run over Google Colab platform. <br />
+For execute any of the following files required to:<br />
+	&emsp; Create new directory called: 'Monet' under the directory 'sample_data' .<br />
+   &emsp;  Execute Upload on 'Monet' directory for all the images from 'monet_jpg' directory.<br />
+   &emsp;  Execute Upload on 'sample_data' directory for the file 'Functions.py'.<br />
+	&emsp; In file 'Functions.py' change the 'path' variable to 'sample_data/Monet'.<br />
+
 The training notebook assume the code run over Kaggle editor. In training we used own dataset - mymoet by Ido Ikar (public in kaggle).
  <br />
   <br />
